@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.bra {
+    display: grid;
+    grid-template-columns: 1fr  3fr;
+    position: relative;
+    align-items: center;
+    margin-top: 20px;
+    margin: 0px 80px;
+    font-family: "Inter";
+    color: white;
+}
+.manu-bra {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.manu-bra a {
+    /* background-color: aquamarine; */
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.selection:hover {
+    cursor: pointer;
+    color: brown;
+
+    .button-base {
+        background-color: rgb(255, 238, 0);
+        transition: 0.3s ease;
+        transform-origin: center center;
+        transform: scaleX(1);
+    }
+}
+
+.button-base {
+
+    /* background-color: antiquewhite; */
+    width: 100px;
+    height: 6px;
+    border-radius: 3px;
+    transform: scaleX(0) scaleY(1);
+}
+
+.name-bra p {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.talk{
+    border: 2px solid white; 
+    border-radius: 50px; 
+    padding: 15px 35px;
+}
+
+.talk:hover{
+    border: 2px solid yellow;
+}
+
+/* ↑↑bra↑↑ */
+
+.text-contact {
+    color: white;
+    margin-top: 5%;
+}
+
+.text-contact h1 {
+    font-size: 60px;
+    font-family: "Lora";
+    margin-bottom: 5%;
+}
+
+.text-contact h2 {
+    font-family: "Lora";
+    font-size: 35px;
+
+}
+
+.text-contact h4 {
+    font-family: "Inter";
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.623);
+}
+
+.cantent-cantect {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: "Inter";
+    font-size: 20px;
+}
+
+.img {
+    size: 50;
+}
+
+.contact {
+    margin: 0px 150px;
+}
+
+.text-content {
+    text-align: center;
+    margin-bottom:10%;
+
+}
+
+.gmail {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.location {
+    text-align: center;
+    font-size: 30px;
+}
+
+.sau {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.bra {
+    display: grid;
+    grid-template-columns: 1fr  3fr;
+    position: relative;
+    align-items: center;
+    margin-top: 20px;
+    margin: 0px 80px;
+    font-family: "Inter";
+    color: white;
+}
+.manu-bra {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.manu-bra a {
+    /* background-color: aquamarine; */
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.selection:hover {
+    cursor: pointer;
+    color: brown;
+
+    .button-base {
+        background-color: rgb(255, 238, 0);
+        transition: 0.3s ease;
+        transform-origin: center center;
+        transform: scaleX(1);
+    }
+}
+
+.button-base {
+
+    /* background-color: antiquewhite; */
+    width: 100px;
+    height: 6px;
+    border-radius: 3px;
+    transform: scaleX(0) scaleY(1);
+}
+
+.name-bra p {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.talk{
+    border: 2px solid white; 
+    border-radius: 50px; 
+    padding: 15px 35px;
+}
+
+.talk:hover{
+    border: 2px solid rgb(255, 230, 0);
+}
+
+.talk:hover{
+    border: 2px solid yellow;
+}
+
+/* ↑↑bra↑↑ */
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 550px;
+    grid-template-areas:
+        "title-about content-about";
+    margin-top: 150px;
+}
+
+.title-about {
+    grid-area: "title-about";
+    text-align: center;
+    text-align: center;
+}
+
+.content-about {
+    grid-area: "content-about";
+    padding-right: 20%;
+}
+
+.title-about p {
+    color: white;
+    font-size: 60px;
+    margin-top: 0;
+    font-weight: 900;
+}
+
+.title-about img {
+    width: 300px;
+}
+
+.text-b1 {
+    font-family: "Lora";
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.text-b2 {
+    font-family: "Inter";
+    font-size: 25px;
+    color: #FFFFFFB2;
+}
+
+.button-download {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.button-download div{
+    display: inline;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: "Inter";
+    border: 2px solid #ffffffd3;
+    padding: 10px 30px;
+    border-radius: 100px;
+}
+
+.button-download div:hover{
+    cursor: pointer;
+    border: 2px solid #00fff2d3;
+}

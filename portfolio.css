@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.bra {
+    display: grid;
+    grid-template-columns: 1fr  3fr;
+    position: relative;
+    align-items: center;
+    margin-top: 20px;
+    margin: 0px 80px;
+    font-family: "Inter";
+    color: white;
+}
+.manu-bra {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.manu-bra a {
+    /* background-color: aquamarine; */
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.selection:hover {
+    cursor: pointer;
+    color: brown;
+
+    .button-base {
+        background-color: rgb(255, 238, 0);
+        transition: 0.3s ease;
+        transform-origin: center center;
+        transform: scaleX(1);
+    }
+}
+
+.button-base {
+
+    /* background-color: antiquewhite; */
+    width: 100px;
+    height: 6px;
+    border-radius: 3px;
+    transform: scaleX(0) scaleY(1);
+}
+
+.name-bra p {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.talk{
+    border: 2px solid white; 
+    border-radius: 50px; 
+    padding: 15px 35px;
+}
+
+.talk:hover{
+    border: 2px solid yellow;
+}
+
+/* ↑↑bra↑↑ */
+
+.portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5000px, 4);
+    grid-template-areas:
+        "c1 c2"
+        "c3 c4"
+        "c5 c6"
+        "c7 c8";
+    margin: 20px 5%;
+    color: white;
+    text-align: center;
+}
+
+.c1 {
+    grid-area: "c1";
+}
+
+.c2 {
+    grid-area: "c2";
+    /* background-color: blueviolet; */
+}
+
+.c3 {
+    grid-area: "c3";
+}
+
+.c4 {
+    grid-area: "c4";
+}
+
+.c1 {
+    grid-area: "c1";
+}
+
+.c5 {
+    grid-area: "c5";
+}
+
+.c6 {
+    grid-area: "c6";
+}
+
+.c7 {
+    grid-area: "c7";
+}
+
+.c8 {
+    grid-area: "c8";
+}
+
+.portfolio>div {
+    margin: 50px 40px;
+}
+
+.img-c {
+    width: 600px;
+}
+
+.c1 p {
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Lora";
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+
+.head-text {
+    font-size: 30px;
+    font-family: "Lora";
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.body-text {
+    font-size: 25px;
+    font-family: "Inter";
+    color: #FFFFFFB2;
+    text-align: left;
+    /* background-color: aliceblue; */
+}
+
+.view-git {
+    height: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70px 70px;
+    grid-template-areas:
+        "view git";
+    align-items: center;
+    /* background-color: aqua; */
+    margin: 0;
+    padding: 0;
+}
+
+.view {
+    grid-area: "view";
+    text-align: right;
+    /* background-color: rgb(255, 8, 24); */
+    display: flex;
+    margin-left: 50%;
+}
+
+.git {
+    grid-area: "git";
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(24, 0, 240); */
+}
+
+.git i:hover + p,
+.git i:hover {
+    cursor: pointer;
+    color: rgb(255, 136, 0);
+}
+
+.button-view {
+    border: 3px solid white;
+    border-radius: 50px;
+    padding: 5px 35px;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    /* background-color: aliceblue; */
+    /* margin: 15px 0px;
+    margin-left: 120px; */
+}
+
+.button-view:hover{
+    cursor: pointer;
+    border: 3px solid rgb(0, 255, 106);
+    color: rgb(0, 255, 106);
+
+}
+
+.git p {
+    font-size: 20px;
+    font-family: "Inter";
+}
+
+i {
+    font-size: 40px;
+}

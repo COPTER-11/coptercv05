@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.bra {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    position: relative;
+    align-items: center;
+    margin-top: 20px;
+    margin: 0px 80px;
+    font-family: "Inter";
+    color: white;
+}
+
+.manu-bra {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.selection {
+    text-align: center;
+}
+
+.manu-bra a {
+    /* background-color: aquamarine; */
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.selection:hover {
+    cursor: pointer;
+    color: brown;
+
+    .button-base {
+        background-color: rgb(255, 238, 0);
+        transition: 0.3s ease;
+        transform-origin: center center;
+        transform: scaleX(1);
+    }
+}
+
+.button-base {
+
+    /* background-color: antiquewhite; */
+    width: 100px;
+    height: 6px;
+    border-radius: 3px;
+    transform: scaleX(0) scaleY(1);
+}
+
+.name-bra p {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+.talk {
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 15px 35px;
+}
+
+.talk:hover {
+    border: 2px solid yellow;
+}
+
+/* ↑↑bra↑↑ */
+
+.title-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "frontend-home img-home";
+    margin-bottom: 5% 0px;
+}
+
+.img-home {
+    grid-area: "img-home";
+    align-items: center;
+    /* background-color: aliceblue; */
+}
+
+.img-home {
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+.img-home img {
+    border: 10px solid white;
+    margin: 10% 150px;
+    width: 350px;
+    margin-bottom: 0;
+    border-radius: 100%;
+}
+
+.frontend-home {
+    grid-area: "frontend-home";
+    color: white;
+    margin: 10% 150px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.texthome-title {
+    font-family: "Lora";
+    font-size: 60px;
+    line-height: 5px;
+    font-weight: 600;
+}
+
+.texthome-comtent {
+    font-family: "Inter";
+    line-height: 3px;
+    font-size: 25px;
+}
+
+.social i {
+    color: white;
+    font-size: 65px;
+}
+
+.social {
+    display: flex;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    color: white;
+    font-size: 30px;
+    font-family: "Inter";
+    font-weight: 500;
+}
+
+.footer-img img {
+    margin: 0px 20px;
+}
+
+.aa {
+    display: inline;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    overflow: hidden;
+}
+
+#icon1 {
+    position: absolute;
+    font-size: 45px;
+    left: 5px;
+    top: 11px;
+}
+
+#icon2 {
+    width: 65px;
+    height: 65px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+
+}
+
+.aa:hover {
+    #icon2 {
+        background-color: rgb(255, 136, 0);
+    }
+}
+
+#git:hover{
+        color: rgb(255, 136, 0);
+}
